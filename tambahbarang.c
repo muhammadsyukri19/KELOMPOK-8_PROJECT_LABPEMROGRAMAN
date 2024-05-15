@@ -5,7 +5,7 @@
 
 void tambahBarang() {
     if (jumlahBarang >= 100) {
-        printf("\nStok barang sudah penuh. Tidak dapat menambahkan barang baru.\n");
+        printf("\nStok barang telah penuh. Tidak dapat menambahkan barang baru.\n");
         return;
     }
 
