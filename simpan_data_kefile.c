@@ -1,6 +1,6 @@
 #include "header.h"
 void simpanDataKeFile() {
-    FILE *fp = fopen("data.txt", "w"); // Buka file dalam mode penulisan (w)
+    FILE *fp = fopen("data_barang.txt", "w"); // Buka file dalam mode penulisan (w)
 
     if (fp == NULL) {
         printf("\nError: Gagal membuka file untuk menyimpan data.\n");
