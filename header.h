@@ -10,7 +10,6 @@ typedef struct Barang {
 } Barang;
 
 // Deklarasi fungsi
-void menuUtama();
 void login();
 void menuPilihan();
 void tambahBarang();
