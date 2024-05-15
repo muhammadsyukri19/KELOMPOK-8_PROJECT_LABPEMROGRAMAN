@@ -9,7 +9,6 @@
 
 // Deklarasi struktur data untuk barang
 typedef struct Barang {
-  int id;
   char nama[50];
   int harga;
   int stok;
@@ -23,7 +22,7 @@ struct User {
 
 
 void registerUser();
-void loginUser();
+int loginUser();
 void tambahBarang();
 void hapusBarang();
 void lihatBarang();
