@@ -1,8 +1,4 @@
 #include "header.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 void tambahBarang() {
     if (jumlahBarang >= 100) {
         printf("\nStok barang telah penuh. Tidak dapat menambahkan barang baru.\n");
