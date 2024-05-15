@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Fungsi melakukan pembayaran
+// Fungsi untuk melakukan pembayaran
 void pembayaran() {
     FILE *file = fopen("products.txt", "r");
 
