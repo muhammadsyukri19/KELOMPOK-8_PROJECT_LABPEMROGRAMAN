@@ -12,8 +12,3 @@ typedef struct Barang {
 // Deklarasi fungsi
 void tambahBarang();
 void lakukanPembayaran();
-
-// Deklarasi variabel
-Barang barang[100]; // Array untuk menyimpan data barang
-int jumlahBarang = 0; // Jumlah barang yang terdaftar
-char namaPengguna[50]; // Nama pengguna yang sedang login
