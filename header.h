@@ -10,13 +10,11 @@ typedef struct Barang {
 } Barang;
 
 // Deklarasi fungsi
-void menuPilihan();
 void tambahBarang();
-void hapusBarang();
 void lihatDaftarBarang();
 void lakukanPembayaran();
 void simpanDataKeFile();
-void bacaDataDariFile();
+
 
 // Deklarasi variabel
 Barang barang[100]; // Array untuk menyimpan data barang
