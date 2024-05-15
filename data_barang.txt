@@ -1,0 +1,5 @@
+4
+Laptop 23540000 3
+Iphone 14500000 45
+Motor 1 3
+Pulpen 5000 355
