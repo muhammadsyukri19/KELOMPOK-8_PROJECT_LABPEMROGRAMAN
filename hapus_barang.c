@@ -6,14 +6,6 @@ void hapusBarang() {
   }
 
   printf("\n**Hapus Barang**\n");
-  lihatDaftarBarang(); #include "header.h"
-void hapusBarang() {
-  if (jumlahBarang == 0) {
-    printf("\nTidak ada barang yang tersedia untuk dihapus.\n");
-    return;
-  }
-
-  printf("\n**Hapus Barang**\n");
   lihatDaftarBarang(); 
 
   int pilihanHapus;
