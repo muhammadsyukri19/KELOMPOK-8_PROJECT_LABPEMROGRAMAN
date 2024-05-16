@@ -22,7 +22,7 @@ void registerUser() {
     FILE *file = fopen("data_akun_kasir.txt", "a");  
     if (file == NULL) {
         printf("Gagal membuka file.\n");
-        return;
+        
     }
     
     fprintf(file, "%s,%s\n", user.username, user.password);
@@ -62,7 +62,7 @@ int loginUser() {
     FILE *file = fopen("data_akun_kasir.txt", "r");   
     if (file == NULL) {
         printf("Gagal membuka file.\n");
-    
+        return (EXIT_FAILURE);
     }
     
     char line[MAX_USERNAME_LENGTH + MAX_PASSWORD_LENGTH + 2];
@@ -79,11 +79,11 @@ int loginUser() {
     }
     
     fclose(file);
-
+return 0;
 }
 
 void menuUtama() {
-    int choice;
+    int choice, y;
     
     do {
         printf("=== Program Login ===\n");
@@ -99,8 +99,11 @@ void menuUtama() {
                 registerUser();
                 break;
             case 2:
-                loginUser();  
-                menuPilihan();
+                y = loginUser();
+                if (y == 0)
+                {
+                    menuPilihan();
+                } 
                 break;
             case 3:
                 printf("Terima kasih!\n");
