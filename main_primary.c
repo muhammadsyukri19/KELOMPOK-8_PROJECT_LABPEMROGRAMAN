@@ -1,4 +1,4 @@
-#include "header2.h"
+#include "header.h"
 
 void registerUser() {
     #define MAX_USERNAME_LENGTH 50
